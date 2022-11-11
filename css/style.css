@@ -171,6 +171,13 @@ nav{display: flex;}
 .block1 p {
     text-align: center;
     max-width: 730px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /*                               BLOCK 2                             */
@@ -180,6 +187,16 @@ nav{display: flex;}
     width: 100%;
     padding: 93px 80px;
     box-sizing: border-box;
+}
+
+.left_clock > h2 {
+    font-family: 'Playfair Display_700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .block2 hr {
