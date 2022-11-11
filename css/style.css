@@ -556,6 +556,22 @@ nav{display: flex;}
 
 
 
+/*                                   BLOCK 6                                 */
+
+
+.block6 > h2 {
+    padding-top: 89.67px;
+}
+
+.block6 > hr {
+    margin: 50px auto 66px;
+}
+
+.partner > a {
+    padding-left: 30px;
+}
+
+
 
 
 @media screen and (max-width: 1050px){
@@ -587,6 +603,7 @@ nav{display: flex;}
 .show_flex{display: flex}
 .df{display:flex}
 .aic{align-items: center;}
+.fw{flex-wrap: wrap;}
 .aife{align-items: flex-end;}
 .jcsb{justify-content: space-between;}
 .jcfe{justify-content: flex-end;}
