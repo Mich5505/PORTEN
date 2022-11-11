@@ -1,0 +1,247 @@
+*{
+    color: #fff
+}
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    min-width: 360px;
+}
+h2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+hr{
+    width: 120px;
+    height: 1px;
+    color: #fff;
+}
+.contact{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 14px 0;
+   
+}
+.contact p, a{
+    color: #969696;
+}
+.contact > img{margin-right: 15px;}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  /* border: 1px solid #000; */
+  max-width: 1110px;
+  margin: 0 auto;
+  background-color: #0F0F0F;
+ }
+
+ .logo{
+    color:#fff;
+    font-family: 'Post No Bills Jaffna';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+ }
+
+nav{display: flex;}
+
+.nav-menu {
+  display: flex;
+  margin: 0;
+}
+
+ .nav-list > a {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px 25px;
+  text-align: center;
+  color: #969696;
+  border-radius: 10px;
+ }
+
+.nav-list a:hover {
+  color: white;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.basket {
+    width: 84px;
+}
+.enter{
+    margin-left: auto;
+}
+.enter img{
+    margin-right: 19px;
+}
+.burger{
+    transform: rotate(-90deg);
+    display: none;
+   }
+
+
+
+
+/*                              БЛОК 1                                    */
+
+
+
+
+.block1 {
+    background-image: url(../img/block1/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.line{
+   padding: 160px 0 154px;
+   height: 810px;
+   box-sizing: border-box;
+}
+.block1 p {
+    text-align: center;
+    max-width: 730px;
+}
+
+
+/* Block2 */
+
+.left_clock{
+    max-width: 54.1666667%;
+    width: 100%;
+    padding: 93px 80px;
+    box-sizing: border-box;
+}
+
+.block2 hr{
+    margin: 50px 0;
+}
+.b2sl{
+    
+    height: 405px;
+    position: relative;
+}
+.b2sl_pic_bg{
+    background: #191B1C;
+    padding: 27px 22px 34px 23px ;
+}
+.b2sl_bot{
+    position: absolute;
+    bottom: 0;
+}
+.b2sl_bot span{
+    display: block;
+    margin-top: 10px;
+
+}
+.right_pic{
+    background: url('../img/block2/bcg.png') no-repeat;
+    background-size: cover;
+    width: 45.8333332%;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.block2 .right_pic hr{
+    margin: 30px 0;
+}
+/* Block3 */
+
+.b3left{
+    width: 48.75%;
+    background: url(../img/block3/bcg.png) no-repeat center;
+    
+}
+.bl3right{
+    width: 51.25%;
+    padding-top: 100px;
+
+}
+.b3_right_content{
+    max-width: 628px;
+    margin: 0 auto;
+}
+.bl3right hr{
+    margin: 40px 0;
+}
+.bl3right p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+.bl3right a{
+    margin: 64px 98px;
+    font-family: 'PT Sans';
+}
+
+
+@media screen and (max-width: 1050px){
+    .burger{
+      display: block;
+     }
+     header{position: relative;}
+     .nav-menu{
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      border: 1px solid #000;
+      top: 75px;
+      left: 0px;
+      padding: 30px 0;
+    }
+    header div:nth-child(2){
+      order: -1;
+    }
+      
+  }
+  @media screen and (max-width: 560px){
+      
+  }
+  
+
+.hide{display: none}
+.show{display: block;}
+.show_flex{display: flex}
+.df{display:flex}
+.aic{align-items: center;}
+.jcsb{justify-content: space-between;}
+.jcfe{justify-content: flex-end;}
+.jcc{justify-content: center;}
+.fdc{flex-direction: column;}
+.tac{text-align: center;}
+.btn{
+    padding: 12px 28px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+
