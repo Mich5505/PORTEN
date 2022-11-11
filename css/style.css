@@ -1,5 +1,39 @@
+@font-face { 
+    font-family: "'Post No Bills Jaffna'";
+    src:
+         /* url(WebFont.eot?) format("eot"), 
+         url(WebFont.woff) format("woff"),  */
+         url(../fonts/PostNoBillsJaffna-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'PT Sans';
+    src: url(../fonts/PTSans-Regular.eot) format("eot"), 
+         url(../fonts/PTSans-Regular.woff) format("woff"), 
+         url(../fonts/PTSans-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-Bold.eot) format("eot"), 
+         url(../fonts/PlayfairDisplay-Bold.woff) format("woff"), 
+         url(../fonts/PlayfairDisplay-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-Regular.eot) format("eot"), 
+         url(../fonts/PlayfairDisplay-Regular.woff) format("woff"), 
+         url(../fonts/PlayfairDisplay-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
 *{
-    color: #fff
+    color: #fff;
+    font-family: 'PT Sans';
 }
 
 .wrapper {
@@ -52,7 +86,7 @@ header {
 
  .logo{
     color:#fff;
-    font-family: 'Post No Bills Jaffna';
+    font-family: 'Post No Bills Jaffna', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -67,13 +101,15 @@ nav{display: flex;}
 }
 
  .nav-list > a {
-  display: block;
-  font-weight: 500;
-  font-size: 18px;
-  padding: 12px 25px;
-  text-align: center;
-  color: #969696;
-  border-radius: 10px;
+    font-family: 'PT Sans';
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 12px 25px;
+    text-align: center;
+    color: #969696;
+    border-radius: 10px;
+    text-transform: uppercase;
  }
 
 .nav-list a:hover {
