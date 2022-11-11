@@ -245,7 +245,38 @@ nav{display: flex;}
     font-family: 'PT Sans';
 }
 
-/*                                  BLOCK 4                              */
+/* Блок 4 */
+
+.block4{
+    padding-top: 120px;
+}
+.block4 hr{
+    margin:39.5px auto 81.5px;
+}
+.slider_clock_6ps{
+    margin-bottom: 40px;
+    max-width: 1109px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.b4sl_pic_bg{
+    padding: 27px 22px 34px 23px;
+    background: #191B1C;
+}
+.b4sl{
+    margin: 0 12.5px 40px 0;
+}
+.b4sl_bot{
+    margin-top: 25px;
+}
+.b4sl_bot p{
+    margin-bottom: 10px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
 
 
 
