@@ -259,17 +259,35 @@ nav{display: flex;}
     flex-wrap: wrap;
     margin: 0 auto;
 }
-.b4sl_pic_bg{
-    padding: 27px 22px 34px 23px;
-    background: #191B1C;
-}
+.b4_slide{margin-bottom: 40px;}
 .b4sl{
-    margin: 0 12.5px 40px 0;
+    width: 260px;
+    height: 325px;
+    border: 1px solid rgb(182, 179, 179);
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
 }
-.b4sl_bot{
-    margin-top: 25px;
+.b4bcg1{
+    background: #191B1C url(../img/clock/clock2.png) no-repeat center;
 }
-.b4sl_bot p{
+
+.b4_btn {
+    /* display: inline-block; */
+    display: none;
+    margin: 135px auto 0;
+    padding: 12px 28px;
+    border: 1px solid #fff;
+}
+.b4sltext{
+    display: block;
+    margin: 25px 0 10px;
+}
+.b4sltext span{
+    display: block;
+}
+
+.b4_slide p{
     margin-bottom: 10px;
     font-family: 'Playfair Display';
     font-style: normal;
@@ -277,11 +295,26 @@ nav{display: flex;}
     font-size: 18px;
     line-height: 24px;
 }
+.b4sl img{
+    background-color: #191B1C;
+    padding: 27px 22px 34px 23px 
+}
+    
+.b4_slide:hover  .b4_btn{
+    display: inline-block;
+}
+.b4_slide:hover  .b4hov_hide{
+  opacity: 0;
+}
+.b4_slide:hover .b4sl{
+   
+    z-index: 10;
+}
 
-
-
-
-
+.b4_blur{
+    /* background: rgba(25, 27, 28, 0.5);  */
+    backdrop-filter: blur(1.5px);
+}
 
 
 
@@ -502,12 +535,13 @@ div > img{
 .fdc{flex-direction: column;}
 .tac{text-align: center;}
 .btn{
+    display: block;
     padding: 12px 28px;
     border: 1px solid rgb(255, 255, 255);
+    font-family: 'Playfair Display';
     font-size: 18px;
     line-height: 23px;
     text-align: center;
-    letter-spacing: 0.1em;
     text-transform: uppercase;
 
 }
