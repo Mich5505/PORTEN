@@ -201,7 +201,9 @@ nav{display: flex;}           ????????
     text-transform: uppercase;
 }
 
+
 /*                               BLOCK 2                             */
+
 
 .left_clock {
     max-width: 54.1666667%;
@@ -257,7 +259,9 @@ nav{display: flex;}           ????????
     margin: 30px 0;
 }
 
+
 /*                                BLOCK 3                               */
+
 
 .b3left {
     width: 48.75%;
@@ -323,7 +327,6 @@ nav{display: flex;}           ????????
     background: #191B1C url(../img/clock/clock1.png) no-repeat center;
 }
 
-
 .b4_btn {
     /* display: inline-block; */
     display: none;
@@ -363,77 +366,8 @@ nav{display: flex;}           ????????
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*                                  BLOCK 5                                */
+
 
 .block5backgraund {
     background-color: #0F0F0F;
@@ -453,7 +387,6 @@ nav{display: flex;}           ????????
     line-height: 48px;
     text-align: center;
     text-transform: uppercase;
-    
 }
 
 .bl5title hr {
@@ -466,7 +399,6 @@ nav{display: flex;}           ????????
     font-size: 14px;
     line-height: 150%;
 }
-
 
 .bl5bcg1 {
     background: url(../img/block4/photo1.png) center;
@@ -539,7 +471,9 @@ nav{display: flex;}           ????????
 
 .bl5title_txt_2 {margin-top: 56px;}
 
+
 /*                                  BLOCK 5/3                                 */
+
 
 .block5backgraund {
     background-color: #0F0F0F;
@@ -595,8 +529,12 @@ nav{display: flex;}           ????????
 /*                                   BLOCK 6                                 */
 
 
+.block6 {
+    padding-bottom: 106px;
+}
+
 .block6 > h2 {
-    padding-top: 89.67px;
+    padding-top: 90px;
 }
 
 .block6 > hr {
@@ -607,6 +545,8 @@ nav{display: flex;}           ????????
     padding-left: 30px;
 }
 
+
+/*                                        FOOTER                             */
 
 
 footer{
@@ -625,6 +565,7 @@ footer > div{
 footer div:nth-child(2) div{
     flex-wrap: wrap;
 }
+
 footer h2{
     margin-bottom: 40px;
     text-align: left;
@@ -636,6 +577,7 @@ footer h2{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 footer p{
     font-family: 'PT Sans';
     font-style: normal;
@@ -644,6 +586,7 @@ footer p{
     line-height: 150%;
     color: #FFFFFF;
 }
+
 footer a{
     display: inline-block;
     font-family: 'PT Sans';
@@ -656,20 +599,22 @@ footer a{
     margin-left: 6px;
     margin-bottom: 20px;
 }
+
 .mail_form{
     margin-top: 40px;
 }
+
 .mail_form input{
     width: 210px;
     height: 42px;
     box-sizing: border-box;
     background: rgba(255, 255, 255, 0.4);
-    
 }
 .mail_form input::placeholder{
     color: #FFFFFF;
     padding-left: 20px;
 }
+
 .mail_form button{
     padding: 10px 20px;
     background: #0F0F0F;
@@ -682,6 +627,40 @@ footer a{
     color: #FFFFFF;
     border: none;
 }
+
+
+/*                                  UNDER_FOOTER                               */
+
+.under_footer {
+    justify-content: center;
+    text-align: center;
+}
+
+.under_footer > p {
+    padding: 17px 709px 17px 0px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+.under_footer > a {
+    padding: 17px 0px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #D0D0D0;
+
+}
+
+
+
+
 @media screen and (max-width: 1050px){
     footer{
         flex-wrap: wrap;
@@ -712,7 +691,6 @@ footer a{
   @media screen and (max-width: 560px){
       
   }
-  
 
 .hide{display: none}
 .show{display: block;}
