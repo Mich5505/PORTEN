@@ -99,8 +99,15 @@ hr {
     padding: 14px 0;
 }
 .contact p, a{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
     color: #969696;
+
 }
+
 .contact > img{margin-right: 15px;}
 
 .header_backgraund {
@@ -632,12 +639,13 @@ footer a{
 /*                                  UNDER_FOOTER                               */
 
 .under_footer {
-    justify-content: center;
-    text-align: center;
+    max-width: 1110px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .under_footer > p {
-    padding: 17px 709px 17px 0px;
+    padding: 17px 0px;
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
