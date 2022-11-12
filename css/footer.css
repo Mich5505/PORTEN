@@ -1,0 +1,73 @@
+footer{
+    background: url('../img/footer/footer.png');
+    padding: 80px 20px 66px;
+    justify-content: center;
+}
+footer div{
+    max-width: 350px;
+    width: 100%;
+    margin: 40px 15.5px 0 10px;
+}
+
+
+footer div:nth-child(2) div{
+    flex-wrap: wrap;
+}
+footer h2{
+    margin-bottom: 40px;
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+footer p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+footer a{
+    display: inline-block;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 10px 20px;
+    background: #0F0F0F;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+.mail_form input{
+    width: 210px;
+    height: 42px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.4);
+    
+}
+.mail_form input::placeholder{
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.mail_form button{
+    padding: 10px 20px;
+    background: #0F0F0F;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 1050px){
+    footer{
+        flex-wrap: wrap;
+    }
+}
