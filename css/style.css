@@ -334,6 +334,34 @@ nav{display: flex;}           ????????
     background: #191B1C url(../img/clock/clock1.png) no-repeat center;
 }
 
+.b4bcg2{
+    background: #191B1C url(../img/clock/clock2.png) no-repeat center;
+}
+
+.b4bcg3{
+    background: #191B1C url(../img/clock/clock3.png) no-repeat center;
+}
+
+.b4bcg4{
+    background: #191B1C url(../img/clock/clock4.png) no-repeat center;
+}
+
+.b4bcg5{
+    background: #191B1C url(../img/clock/clock5.png) no-repeat center;
+}
+
+.b4bcg6{
+    background: #191B1C url(../img/clock/clock6.png) no-repeat center;
+}
+
+.b4bcg7{
+    background: #191B1C url(../img/clock/clock7.png) no-repeat center;
+}
+
+.b4bcg8{
+    background: #191B1C url(../img/clock/clock2.png) no-repeat center;
+}
+
 .b4_btn {
     /* display: inline-block; */
     display: none;
