@@ -70,6 +70,14 @@ h3{
     color: #FFFFFF;
 }
 
+.title_p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 hr {
     width: 120px;
     height: 1px;
@@ -272,14 +280,16 @@ nav{display: flex;}
     font-family: 'PT Sans';
 }
 
-/* Блок 4 */
+/*                                   BLOCK 4                                   */
 
 .block4{
     padding-top: 120px;
 }
+
 .block4 hr{
     margin:39.5px auto 81.5px;
 }
+
 .slider_clock_6ps{
     margin-bottom: 40px;
     max-width: 1109px;
@@ -287,6 +297,7 @@ nav{display: flex;}
     margin: 0 auto;
 }
 .b4_slide{margin-bottom: 40px;}
+
 .b4sl{
     width: 260px;
     height: 325px;
@@ -306,10 +317,12 @@ nav{display: flex;}
     padding: 12px 28px;
     border: 1px solid #fff;
 }
+
 .b4sltext{
     display: block;
     margin: 25px 0 10px;
 }
+
 .b4sltext span{
     display: block;
 }
@@ -322,6 +335,7 @@ nav{display: flex;}
     font-size: 18px;
     line-height: 24px;
 }
+
 .b4sl img{
     background-color: #191B1C;
     padding: 27px 22px 34px 23px
@@ -330,11 +344,12 @@ nav{display: flex;}
 .b4_slide:hover  .b4_btn{
     display: inline-block;
 }
+
 .b4_slide:hover  .b4hov_hide{
   opacity: 0;
 }
-.b4_slide:hover .b4sl{
 
+.b4_slide:hover .b4sl{
     z-index: 10;
 }
 
