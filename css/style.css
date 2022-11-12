@@ -78,6 +78,15 @@ h3{
     line-height: 24px;
 }
 
+span {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
 hr {
     width: 120px;
     height: 1px;
@@ -327,14 +336,14 @@ nav{display: flex;}
     display: block;
 }
 
-.b4_slide p{
+/* .b4_slide p{
     margin-bottom: 10px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-}
+} */
 
 .b4sl img{
     background-color: #191B1C;
