@@ -624,9 +624,11 @@ footer a{
     footer{
         flex-wrap: wrap;
     }
-    .footer > div{
+    footer > div{
         margin-bottom: 25px;
     }
+
+
 }
 
 
