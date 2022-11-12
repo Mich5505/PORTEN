@@ -659,12 +659,14 @@ nav{display: flex;}           ????????
 .btn{
     display: block;
     padding: 12px 28px;
-    border: 1px solid rgb(255, 255, 255);
-    font-family: 'Playfair Display';
     border: 1px solid #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     text-align: center;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
