@@ -65,6 +65,7 @@ footer a{
     line-height: 150%;
     letter-spacing: 0.05em;
     color: #FFFFFF;
+    border: none;
 }
 @media screen and (max-width: 1050px){
     footer{
