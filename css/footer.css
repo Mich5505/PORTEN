@@ -1,12 +1,13 @@
 footer{
-    background: url('../img/footer/footer.png');
+    background: url('../img/footer/footer.png') no-repeat center;
+    background-size: cover;
     padding: 80px 20px 66px;
     justify-content: center;
 }
-footer div{
+footer > div{
     max-width: 350px;
     width: 100%;
-    margin: 40px 15.5px 0 10px;
+    margin: 0 15.5px 0 10px;
 }
 
 
@@ -43,6 +44,9 @@ footer a{
     background: #0F0F0F;
     margin-left: 6px;
     margin-bottom: 20px;
+}
+.mail_form{
+    margin-top: 40px;
 }
 .mail_form input{
     width: 210px;
