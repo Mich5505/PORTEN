@@ -1,8 +1,8 @@
 @font-face { 
     font-family: 'Post No Bills Jaffna';
     src:
-         url(WebFont.eot?) format("eot"), 
-         url(WebFont.woff) format("woff"),
+         /* url(WebFont.eot?) format("eot"), 
+         url(WebFont.woff) format("woff"), */
          url(../fonts/PostNoBillsJaffna-Bold.ttf) format("truetype");
     font-weight: bold;
     font-style: normal;
