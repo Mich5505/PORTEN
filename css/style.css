@@ -320,8 +320,9 @@ nav{display: flex;}           ????????
     margin-bottom: 25px;
 }
 .b4bcg1{
-    background: #191B1C url(../img/clock/clock2.png) no-repeat center;
+    background: #191B1C url(../img/clock/clock1.png) no-repeat center;
 }
+
 
 .b4_btn {
     /* display: inline-block; */
@@ -339,16 +340,6 @@ nav{display: flex;}           ????????
 .b4sltext span{
     display: block;
 }
-
-/* .b4_slide p{
-    margin-bottom: 10px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-} */
-
 .b4sl img{
     background-color: #191B1C;
     padding: 27px 22px 34px 23px
@@ -616,6 +607,86 @@ nav{display: flex;}           ????????
     padding-left: 30px;
 }
 
+
+
+footer{
+    background: url('../img/footer/footer.png') no-repeat center;
+    background-size: cover;
+    padding: 80px 20px 66px;
+    justify-content: center;
+}
+footer > div{
+    max-width: 350px;
+    width: 100%;
+    margin: 0 15.5px 0 10px;
+}
+
+
+footer div:nth-child(2) div{
+    flex-wrap: wrap;
+}
+footer h2{
+    margin-bottom: 40px;
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+footer p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+footer a{
+    display: inline-block;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 10px 20px;
+    background: #0F0F0F;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+.mail_form{
+    margin-top: 40px;
+}
+.mail_form input{
+    width: 210px;
+    height: 42px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.4);
+    
+}
+.mail_form input::placeholder{
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.mail_form button{
+    padding: 10px 20px;
+    background: #0F0F0F;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: none;
+}
+@media screen and (max-width: 1050px){
+    footer{
+        flex-wrap: wrap;
+    }
+}
 
 
 
