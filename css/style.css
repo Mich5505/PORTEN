@@ -98,17 +98,18 @@ hr {
     margin: 0 auto;
     padding: 14px 0;
 }
-.contact p, a{
+.contact p, .contact a{
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     color: #969696;
-
 }
 
-.contact > img{margin-right: 15px;}
+.contact > img{
+    margin-right: 15px;
+}
 
 .header_backgraund {
     background-color: #0F0F0F;
@@ -118,11 +119,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  /* padding: 15px; */
   /* border: 1px solid #000; */
   max-width: 1110px;
   margin: 0 auto;
   background-color: #0F0F0F;
+  box-sizing: border-box;
  }
 
  .logo {
@@ -133,34 +135,30 @@ header {
     font-size: 36px;
     line-height: 54px;
  }
-
-nav{display: flex;}           ???????
-
 .nav-menu {
   margin: 0;
 }
-
- .nav-list > a {
+ .nav-menu a {
     font-family: 'PT Sans';
     display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    padding: 12px 25px;
+    padding: 31px 18px;
     text-align: center;
     color: #969696;
-    border-radius: 10px;
     text-transform: uppercase;
  }
 
 .nav-list a:hover {
   color: white;
-  border-radius: 10px;
   transition: all .3s;
+  background-color: #1F1F1F;
 }
 
 .basket {
     width: 84px;
+    margin-left: 15px;
 }
 
 .enter {
@@ -307,7 +305,7 @@ nav{display: flex;}           ???????
 /*                                   BLOCK 4                                   */
 
 .block4{
-    padding-top: 120px;
+    padding: 120px 0 150px
 }
 
 .block4 hr{
@@ -415,13 +413,7 @@ nav{display: flex;}           ???????
 }
 
 .bl5title h2 {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
     line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .bl5title hr {
@@ -452,38 +444,11 @@ nav{display: flex;}           ???????
 /*                                  BLOCK 5/2                          */
 
 
-.block5backgraund {
-    background-color: #0F0F0F;
-    max-width: 1920px;
-    width: 100%;
-}
+
 
 .block5_2 {
     padding-top: 30px;
 }
-
-.bl5title h2 {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.bl5title hr {
-    margin: 36.56px auto 56.97px;
- }
-
-.bl5right p {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-}
-
 .bl5left {
     width: 989px;
     height: 437px;
@@ -494,71 +459,18 @@ nav{display: flex;}           ???????
 .bl5bcg2{
     background: url(../img/block4/photo2.png);
 }
-
-.bl5right p {
-    max-width: 628px;
-    margin: 14px 0px 38px 0px;
-}
-
-.bl5btn_hash {
-    display: block;
-}
-
 .bl5title_txt_2 {margin-top: 56px;}
 
-
 /*                                  BLOCK 5/3                                 */
-
-
-.block5backgraund {
-    background-color: #0F0F0F;
-    max-width: 1920px;
-    width: 100%;
-}
-
 .block5_3 {
     padding-top: 35px;
 }
-
-.bl5title h2 {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.bl5title hr {
-    margin: 36.56px auto 56.97px;
- }
-
-.bl5right p {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-}
-
 .bl5bcg3 {
     background-image: url(../img/block4/photo3.png);
-}
-
-.bl5right p {
-    max-width: 628px;
-    margin: 14px 0px 38px 0px;
-}
-
-.bl5btn_hash {
-    display: block;
 }
 .bl5title_txt_1 {margin-top: 53px;}
 .bl5title_txt_2 {margin-top: 56px;}
 .bl5title_txt_3 {margin-top: 48px;}
-
-
 
 
 /*                                   BLOCK 6                                 */
@@ -696,10 +608,24 @@ footer a{
 
 
 
+@media screen and (max-width: 1250px){
+    .header_backgraund, .contact{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav-list > a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+}
 
 @media screen and (max-width: 1050px){
     footer{
         flex-wrap: wrap;
+    }
+    .footer > div{
+        margin-bottom: 25px;
     }
 }
 
@@ -714,13 +640,20 @@ footer a{
       display: none;
       flex-direction: column;
       position: absolute;
-      border: 1px solid #000;
-      top: 75px;
-      left: 0px;
-      padding: 30px 0;
+      border: 1px solid rgb(107, 107, 107);
+      top: 50px;
+      left: -15px;
+      padding: 15px;
+      background: #473737;
+      
     }
     header div:nth-child(2){
       order: -1;
+    }
+    .nav-menu a{
+        display: block;
+        padding: 8px 0;
+        text-align: left;
     }
       
   }
