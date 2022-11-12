@@ -103,6 +103,10 @@ hr {
 }
 .contact > img{margin-right: 15px;}
 
+.header_backgraund {
+    background-color: #0F0F0F;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -123,18 +127,18 @@ header {
     line-height: 54px;
  }
 
-nav{display: flex;}
+nav{display: flex;}           ????????
 
 .nav-menu {
-  display: flex;
   margin: 0;
 }
 
  .nav-list > a {
     font-family: 'PT Sans';
     display: block;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
     padding: 12px 25px;
     text-align: center;
     color: #969696;
