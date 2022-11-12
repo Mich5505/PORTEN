@@ -70,6 +70,23 @@ h3{
     color: #FFFFFF;
 }
 
+.title_p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+span {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
 hr {
     width: 120px;
     height: 1px;
@@ -85,6 +102,10 @@ hr {
     color: #969696;
 }
 .contact > img{margin-right: 15px;}
+
+.header_backgraund {
+    background-color: #0F0F0F;
+}
 
 header {
   display: flex;
@@ -106,18 +127,18 @@ header {
     line-height: 54px;
  }
 
-nav{display: flex;}
+nav{display: flex;}           ????????
 
 .nav-menu {
-  display: flex;
   margin: 0;
 }
 
  .nav-list > a {
     font-family: 'PT Sans';
     display: block;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
     padding: 12px 25px;
     text-align: center;
     color: #969696;
@@ -171,6 +192,13 @@ nav{display: flex;}
 .block1 p {
     text-align: center;
     max-width: 730px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /*                               BLOCK 2                             */
@@ -180,6 +208,16 @@ nav{display: flex;}
     width: 100%;
     padding: 93px 80px;
     box-sizing: border-box;
+}
+
+.left_clock > h2 {
+    font-family: 'Playfair Display_700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .block2 hr {
@@ -255,14 +293,16 @@ nav{display: flex;}
     font-family: 'PT Sans';
 }
 
-/* Блок 4 */
+/*                                   BLOCK 4                                   */
 
 .block4{
     padding-top: 120px;
 }
+
 .block4 hr{
     margin:39.5px auto 81.5px;
 }
+
 .slider_clock_6ps{
     margin-bottom: 40px;
     max-width: 1109px;
@@ -270,6 +310,7 @@ nav{display: flex;}
     margin: 0 auto;
 }
 .b4_slide{margin-bottom: 40px;}
+
 .b4sl{
     width: 260px;
     height: 325px;
@@ -289,22 +330,25 @@ nav{display: flex;}
     padding: 12px 28px;
     border: 1px solid #fff;
 }
+
 .b4sltext{
     display: block;
     margin: 25px 0 10px;
 }
+
 .b4sltext span{
     display: block;
 }
 
-.b4_slide p{
+/* .b4_slide p{
     margin-bottom: 10px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-}
+} */
+
 .b4sl img{
     background-color: #191B1C;
     padding: 27px 22px 34px 23px
@@ -313,11 +357,12 @@ nav{display: flex;}
 .b4_slide:hover  .b4_btn{
     display: inline-block;
 }
+
 .b4_slide:hover  .b4hov_hide{
   opacity: 0;
 }
-.b4_slide:hover .b4sl{
 
+.b4_slide:hover .b4sl{
     z-index: 10;
 }
 
@@ -556,6 +601,22 @@ nav{display: flex;}
 
 
 
+/*                                   BLOCK 6                                 */
+
+
+.block6 > h2 {
+    padding-top: 89.67px;
+}
+
+.block6 > hr {
+    margin: 50px auto 66px;
+}
+
+.partner > a {
+    padding-left: 30px;
+}
+
+
 
 
 @media screen and (max-width: 1050px){
@@ -587,6 +648,7 @@ nav{display: flex;}
 .show_flex{display: flex}
 .df{display:flex}
 .aic{align-items: center;}
+.fw{flex-wrap: wrap;}
 .aife{align-items: flex-end;}
 .jcsb{justify-content: space-between;}
 .jcfe{justify-content: flex-end;}
