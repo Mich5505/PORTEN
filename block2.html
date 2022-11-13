@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
+    <link rel="stylesheet" href="./css/block2.css">
+    <title>Document</title>
+</head>
+
+
+<body style="background:rgb(255, 255, 255)">
+   
+    <div class="wrapper">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="../img/clock/clock1.png" alt=""></div>
+            <div class="swiper-slide"><img src="../img/clock/clock2.png" alt=""></div>
+            <div class="swiper-slide"><img src="../img/clock/clock3.png" alt=""></div>
+            
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <p>Resize the browser window to fire the <code>resize</code> event.</p>
+    <p>Window height: <span id="height"></span></p>
+    <p>Window width: <span id="width"></span></p>
+
+
+
+    <script>
+     
+
+
+        var width = window.innerWidth;
+       
+
+        window.onresize = reportWindowSize;
+        window.addEventListener('resize', reportWindowSize);
+        function Slider(){
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // And if we need scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+            });
+        }
+        function reportWindowSize(){
+            if(width < 900){
+                Slider()
+            }else{
+                swiper.destroy(true, true)
+            }
+        }
+
+
+
+
+
+//    addEventListener('resize', reportWindowSize);
+
+
+
+        // swiper.destroy(true, true)
+       
+    </script> 
+   
+</body>
+</html>

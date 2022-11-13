@@ -8,8 +8,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -68,12 +68,12 @@
             <div class="left_clock">
                 <div class="df fdc aic tac">
                     <h2>СЕЗОН 2021/22</h2>
-                    <hr color="#fff" width="120">
+                    <hr color="#fff" width="120" size="1">
                 </div>
                 <!-- Slider main container -->
-                <div class="swiper">
+                <div class="swiper slider_clock">
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper slider_clock df jcsb">
+                    <div class="swiper-wrapper df jcsb">
                     <!-- Slides -->
                         <div class="swiper-slide b2sl">
                             <div class="b2sl_pic_bg">
@@ -357,29 +357,32 @@
 
     </div>
     </div>
-  <script src="./js/index.js"></script>
-  <!-- <script>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    if (window.innerWidth <= 900) {
+
     const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-  </script> -->
-</body>
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+    }
+</script> 
 </html>
