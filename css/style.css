@@ -741,6 +741,7 @@ footer a{
 
 
   @media screen and (max-width: 560px){
+    .partner img{width: 80%;}
 
   }
 
