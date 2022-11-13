@@ -493,7 +493,7 @@ header {
 }
 
 .partner > a {
-    padding-left: 30px;
+  padding: 0 15px 0 15px;
 }
 
 
@@ -613,15 +613,16 @@ footer a{
 
 @media screen and (max-width: 1800px) {
     .bl5right {
-        padding-right: 15px;
+        justify-content: flex-start;
+    }
+    .bl5btn_hash a{
+        margin-right: 30px;
     }
     .block5_1 {
         flex-direction: column;
-        justify-items: center;
-        /* text-align: center; */
+        justify-content: center;
+        padding: 0px 15px;
     }
-    
-
     footer{
         flex-wrap: wrap;
     }
@@ -684,7 +685,18 @@ footer a{
         margin-right: 70px;
     }
       
+
+
+    .partner {
+        padding: 100px 0px;
+    }
   }
+
+
+
+
+
+
   @media screen and (max-width: 560px){
 
   }
