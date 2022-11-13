@@ -213,22 +213,25 @@ header {
 .left_clock {
     max-width: 54.1666667%;
     width: 100%;
-    padding: 93px 80px;
+    padding: 92.5px 80px;
     box-sizing: border-box;
 }
 
-.left_clock > h2 {
+.left_clock  h2 {
     font-family: 'Playfair Display_700';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 48px;
+    line-height: 39px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .block2 hr {
     margin: 50px 0;
+    border: none;
+    height: 1px;
+    background-color: #ffffff;
 }
 
 .b2sl {
@@ -238,7 +241,7 @@ header {
 
 .b2sl_pic_bg {
     background: #191B1C;
-    padding: 27px 22px 34px 23px ;
+    padding: 26px 22px 33px 23px ;
 }
 
 .b2sl_bot {
@@ -264,6 +267,11 @@ header {
     margin: 30px 0;
 }
 
+@media screen and (max-width: 1800px){
+    .block2{flex-direction: column; align-items: center;}
+    .left_clock{ max-width: 900px; padding: 30px; margin-bottom: 35px;}
+    .right_pic{min-height: 700px; width: 100%;}
+}
 
 /*                                BLOCK 3                               */
 
