@@ -273,6 +273,17 @@ header {
     .right_pic{min-height: 700px; width: 100%;}
 }
 
+/* При инициализации слайдера */
+@media screen and (max-width: 900px){
+    .b2sl_pic_bg {
+        background: #191B1C;
+        padding: 26px 22px 33px 23px;
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
 /*                                BLOCK 3                               */
 
 

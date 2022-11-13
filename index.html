@@ -8,7 +8,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> -->
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -367,11 +368,13 @@
 
     </div>
  
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
-  <script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    if (window.innerWidth <= 900) {
+
     const swiper = new Swiper('.swiper', {
         // Optional parameters
-        direction: 'horisontal',
+        direction: 'horizontal',
         loop: true,
 
         // If we need pagination
@@ -389,7 +392,7 @@
         scrollbar: {
             el: '.swiper-scrollbar',
         },
-        });
-  </script>
-</body>
+    });
+    }
+</script> 
 </html>

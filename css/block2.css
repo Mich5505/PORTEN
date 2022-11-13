@@ -1,0 +1,14 @@
+.swiper-wrapper{
+    
+}
+.swiper-slide img{
+    display: block;
+    max-width: 260px;
+    margin: 0 auto;
+   
+}
+.swiper-slide{
+   
+    background-color: rgb(232, 197, 197);
+   
+}
