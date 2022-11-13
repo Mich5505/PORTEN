@@ -150,7 +150,7 @@ header {
     text-transform: uppercase;
  }
 
-.nav-list a:hover {
+.nav-menu a:hover {
   color: white;
   transition: all .3s;
   background-color: #1F1F1F;
@@ -429,13 +429,15 @@ header {
 
 .block5 {
     padding-top: 63.32px;
+
+    
 }
 
-.bl5title h2 {
+.block5 h2 {
     line-height: 48px;
 }
 
-.bl5title hr {
+.block5 hr {
     margin: 36.56px auto 56.97px;
  }
 .bl5right p {
@@ -462,31 +464,33 @@ header {
 
 /*                                  BLOCK 5/2                          */
 
-
-
-
+/* .block5_1, .block5_2, .block5_3{
+    flex-wrap: wrap;
+} */
 .block5_2 {
     padding-top: 30px;
 }
+
 .bl5left {
     width: 989px;
     height: 437px;
     margin-right: 145px;
-    /* background-position: center;
-    background-repeat:no-repeat ; */
 }
+
 .bl5bcg2{
-    background: url(../img/block4/photo2.png);
+    background: url(../img/block4/photo2.png) center;
 }
-.bl5title_txt_2 {margin-top: 56px;}
+
 
 /*                                  BLOCK 5/3                                 */
 .block5_3 {
     padding-top: 35px;
 }
+
 .bl5bcg3 {
-    background-image: url(../img/block4/photo3.png);
+    background: url(../img/block4/photo3.png) center;
 }
+
 .bl5title_txt_1 {margin-top: 53px;}
 .bl5title_txt_2 {margin-top: 56px;}
 .bl5title_txt_3 {margin-top: 48px;}
@@ -626,6 +630,29 @@ footer a{
 }
 
 
+@media screen and (max-width: 1800px) {
+    .bl5right {
+        padding-right: 15px;
+    }
+    .block5_1 {
+        flex-direction: column;
+        justify-items: center;
+        /* text-align: center; */
+    }
+    
+
+    footer{
+        flex-wrap: wrap;
+    }
+    footer > div{
+        margin-bottom: 25px;
+    }
+    .bl5left {
+        margin-right: 70px;
+    }
+}
+
+
 
 @media screen and (max-width: 1250px){
     .header_backgraund, .contact{
@@ -639,14 +666,6 @@ footer a{
     
 }
 
-@media screen and (max-width: 1050px){
-    footer{
-        flex-wrap: wrap;
-    }
-    .footer > div{
-        margin-bottom: 25px;
-    }
-}
 
 
 
@@ -673,6 +692,15 @@ footer a{
         display: block;
         padding: 8px 0;
         text-align: left;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    footer > div{
+        margin-bottom: 25px;
+    }
+    .bl5left {
+        margin-right: 70px;
     }
       
   }
